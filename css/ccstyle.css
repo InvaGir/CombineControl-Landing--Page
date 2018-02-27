@@ -1,0 +1,109 @@
+/* Please Read:
+
+      This page was created in the dimensions 1200x628 and not for a full sized page,
+      In order to test it in your browser resize your browser window until you get a clear
+      image of the background.
+
+      This page will not work with full screen mode and was not created for a full screen.
+      This page will automatically open with its original measurement.
+
+      You should not edit any of the settings below and leave them be!
+      If you truly want to edit the design make sure you know what you're doing.
+
+      This page was created and contributed by Sagiv Rada for Combine Control - https://www.combinecontrol.com and should only be used by them and only them.
+
+      Please do not use this without my premission.
+
+*/
+
+iframe {display: none;}
+@font-face {src: url("/assets/fonts/Ubuntu-Regular.ttf");font-family: mainFont;}
+@font-face {src: url("/assets/fonts/Ubuntu-Bold.ttf");font-family: headersFont;}
+h1, h2, h3, h4, h5, h6 {font-family:headersFont;}
+p, label, em, i, b, q {font-family:mainFont;} 
+
+@media screen and (max-width: 1200px) {
+    
+    html, body {
+        
+        margin: 0;
+        padding: 0;
+        
+    }
+    
+    
+    body {
+        
+        background-image: url("/assets/images/background.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        
+    }
+    
+    .mainContainer {
+        
+        width: 100%;
+        height: 730px;
+        
+    }
+    
+    .header {
+        
+        height: 150px;
+        background: rgba(15, 15, 15, 0.4);
+        
+    }
+    
+    .header > img {
+        
+        position: fixed;
+        top: 8px;
+        left: 150px;
+        
+    }  
+    
+    .mainDataContainer {
+        
+        height: 570px;
+        background: rgba(10, 10, 10, 0.4);
+        
+    }
+    
+    .dataContainer {
+        
+        height: 540px;
+        width: 90%;
+        margin: 0 auto;
+        text-align: center;
+        color: rgb(225, 225, 225);
+        text-shadow: 0px 0px 3px rgb(15, 15, 15);
+    }
+    
+    .infoContainer {
+        
+        height: 350px;
+        
+    }
+    
+    .buttonsHolder {
+        
+        position: absolute;
+        width: inherit;
+        bottom: 25px;
+        height: 180px;
+        
+    }
+    
+    .buttonsHolder > a > img {
+        
+        position: relative;
+        top: 45px;
+        
+    }
+    
+    h1 {
+        text-shadow: 0px 0px 3px rgb(15, 15, 15);
+    }
+    
+}
