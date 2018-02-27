@@ -16,7 +16,6 @@
 
 */
 
-iframe {display: none;}
 @font-face {src: url("/assets/fonts/Ubuntu-Regular.ttf");font-family: mainFont;}
 @font-face {src: url("/assets/fonts/Ubuntu-Bold.ttf");font-family: headersFont;}
 h1, h2, h3, h4, h5, h6 {font-family:headersFont;}
