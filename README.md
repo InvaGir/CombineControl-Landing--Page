@@ -1,5 +1,5 @@
 # CombineControl-Landing--Page
-Landing Page for Combine Control.
+Landing Page for Combine Control - Created for www.combinecontrol.com
 
 
 To test make sure you disable the popup blocker or enable popups for your browser.
